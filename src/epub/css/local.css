@@ -54,10 +54,11 @@ footer{
 /* End letter css */
 
 /* Begin custom dedication css */
-section[id="dedication"] p{
+#dedication p{
 	font-variant: all-small-caps;
 }
 
-section[id="dedication"] p b{
+#dedication p span{
+	font-variant: normal;
 	text-transform: uppercase;
 }
