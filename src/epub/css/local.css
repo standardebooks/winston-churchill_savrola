@@ -51,3 +51,8 @@ footer{
 	font-variant: normal;
 	text-transform: uppercase;
 }
+
+/* Telegram css */
+.telegram{
+	font-variant: all-small-caps;
+}
