@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/winston-churchill/savrola</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>1900⁠–⁠01-01T00:00:00Z</dc:date>
+		<meta property="dcterms:modified">1900⁠–⁠01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -28,43 +28,50 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Savrola</dc:title>
 		<meta property="file-as" refines="#title">Savrola</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Tale of the Revolution in Laurania</dc:title>
+		<meta property="file-as" refines="#subtitle">Tale of the Revolution in Laurania, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Savrola: A Tale of the Revolution in Laurania</dc:title>
+		<meta property="file-as" refines="#fulltitle">Savrola</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Political fiction</dc:subject>
 		<dc:subject id="subject-2">Revolutions -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85104355</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008110773</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">An idealistic opposition leader struggles to restrain his party’s violent revolt while scheming to overthrow a widely despised president and navigating a secret romance as their nation teeters toward revolution.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Set in the fictional European republic of Laurania, &lt;i&gt;Savrola&lt;/i&gt; follows a popular opposition leader who clashes with an unpopular president tightening his grip on power. After a controversial government decision disenfranchises political rivals, riots erupt and spiral into violence, forcing the leader to navigate a dangerous balancing act: he tries to keep his supporters from turning too violent while working to remove the president from power. Complicating his efforts is his close friend, the president’s wife, who is torn between loyalty to her husband and sympathy for the opposition.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Savrola&lt;/i&gt; was serialized in 1898 before being published in a single volume in 1900. It was &lt;a href="https://standardebooks.org/ebooks/winston-churchill"&gt;Winston Churchill’s&lt;/a&gt; only novel. Churchill began writing &lt;i&gt;Savrola&lt;/i&gt; at age 22 while stationed in India with the British Army; it stands as his sole work of fiction and one of his earliest published works, predating his Nobel Prize in Literature and political career.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/50906</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/savrolataleofrev0000chur</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Savrola</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/winston-churchill_savrola</meta>
 		<dc:creator id="author">Winston Churchill</dc:creator>
 		<meta property="file-as" refines="#author">Churchill, Winston</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Sir Winston Leonard Spencer Churchill</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Winston_Churchill</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78085430</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Gustave Clarence Rodolphe Boulanger</dc:contributor>
+		<meta property="file-as" refines="#artist">Boulanger, Gustave Clarence Rodolphe</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Gustave_Boulanger</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n97868072</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Haines, Al</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Brendan Fattig</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Fattig, Brendan</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://brendanny.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
