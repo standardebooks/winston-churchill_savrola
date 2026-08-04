@@ -44,7 +44,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008110773</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>An idealistic opposition leader struggles to restrain his party while scheming to overthrow a widely-despised president and navigating a secret romance as the nation teeters toward revolution.</dc:abstract>
+		<meta property="schema:abstract">An idealistic opposition leader struggles to restrain his party while scheming to overthrow a widely-despised president and navigating a secret romance as the nation teeters toward revolution.</meta>
 		<dc:description>
 			&lt;p&gt;Set in the fictional European republic of Laurania, &lt;i&gt;Savrola&lt;/i&gt; follows a popular opposition leader who clashes with an unpopular president who is tightening his grip on power. After a controversial government decision disenfranchises political rivals, riots erupt and spiral into violence, forcing the leader to navigate a dangerous balancing act: can he keep his supporters from running rampant, while removing the president from power? Complicating his efforts is his close friend, the president’s wife, who is torn between loyalty to her husband and sympathy for the opposition.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Savrola&lt;/i&gt; was serialized in 1898 before being published in a single volume in 1900. &lt;a href="https://standardebooks.org/ebooks/winston-churchill"&gt;Churchill&lt;/a&gt; began writing it at the age of twenty-two while stationed in India with the British Army; it stands as his sole work of fiction and one of his earliest published works, predating both his Nobel Prize in Literature and his legendary political career.&lt;/p&gt;
