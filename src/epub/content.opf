@@ -60,7 +60,7 @@
 		<link href="https://github.com/standardebooks/winston-churchill_savrola" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Winston Churchill</dc:creator>
 		<meta property="file-as" refines="#author">Churchill, Winston</meta>
-		<meta property="schema:alternateName" refines="#author">Sir Winston Leonard Spencer Churchill</meta>
+		<meta property="schema:alternateName" refines="#author">Winston Leonard Spencer Churchill</meta>
 		<link href="https://en.wikipedia.org/wiki/Winston_Churchill" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n78085430.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
